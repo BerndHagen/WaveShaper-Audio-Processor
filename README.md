@@ -7,7 +7,7 @@
   <b>Experience a powerful, intuitive audio workstation optimized for precision and performance.</b>
 </p>
 <p align="center">
-  <a href="https://github.com/BerndHagen/WaveShaper-Audio-Processor/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/WaveShaper-Audio-Processor?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/WaveShaper-Audio-Processor/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Freeware-blue?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/10.0/runtime"><img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">
+  <a href="https://github.com/BerndHagen/WaveShaper-Audio-Processor/releases"><img src="https://img.shields.io/github/v/release/BerndHagen/WaveShaper-Audio-Processor?include_prereleases&style=flat-square&color=CD853F" alt="Latest Release"></a>&nbsp;&nbsp;<a href="https://github.com/BerndHagen/WaveShaper-Audio-Processor/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Freemium-red?style=flat-square" alt="License"></a>&nbsp;&nbsp;<a href="https://dotnet.microsoft.com/download/dotnet/10.0/runtime"><img src="https://img.shields.io/badge/.NET-10.0-512BD4?style=flat-square" alt=".NET Version"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=flat-square" alt="Platform">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Architecture-x64-lightgrey?style=flat-square" alt="Architecture">&nbsp;&nbsp;<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" alt="Status">
 </p>
 
 **WaveShaper** is a professional audio processing application designed for musicians, producers and audio enthusiasts who want precise control over their sound. Whether you're enhancing music files, preparing audio for distribution or experimenting with creative effects, WaveShaper provides all the tools you need in a clean, intuitive interface. The application combines a professional 10-band parametric equalizer with studio-quality effects, dynamic compression, mastering tools and real-time visualization to help you achieve the perfect sound.
@@ -21,7 +21,6 @@
 - **Spectrum Analyzer:** Visualize frequency content in real-time with seven display modes including Linear, Logarithmic, Smooth, Peak, RMS, Octave and Average Hold for precise audio monitoring.
 - **Project Library:** Organize and manage your audio files with drag-and-drop import, multiple sorting options, favorites and seamless integration with Medio download library.
 - **High-Quality Export:** Export processed audio to `WAV`, `FLAC`, `MP3`, `AAC` or `OGG` with configurable normalization, bitrate, sample rate and bit depth settings.
-- **Premium Upgrade:** Unlock professional export features including FLAC/AAC/OGG formats, normalization, hi-res audio and advanced effects in export for a one-time purchase of €7.99.
 
 ### **Supported Formats**
 
@@ -30,36 +29,13 @@ WaveShaper handles a wide range of audio formats for both import and export:
 - **Input Formats:** `MP3`, `WAV`, `FLAC`, `WMA`, `AAC`, `M4A`
 - **Output Formats:** `WAV`, `FLAC`, `MP3`, `AAC`, `OGG`
 
-### **License Tiers**
-
-WaveShaper is free to use with all core features included. A one-time **Premium** upgrade unlocks professional export capabilities:
-
-| Feature | Basic (Free) | Premium (€7.99) |
-|---------|:------------:|:----------------:|
-| 10-Band EQ, 30 Presets, Custom Presets | ✔ | ✔ |
-| Reverb, Delay, Saturation (all types) | ✔ | ✔ |
-| Compressor, Gate/Expander | ✔ | ✔ |
-| Player, Visualizations, Spectrum Analyzer | ✔ | ✔ |
-| Audio Engine (WASAPI, DirectSound) | ✔ | ✔ |
-| WAV / MP3 Export | ✔ | ✔ |
-| FLAC / AAC / OGG Export | – | ✔ |
-| Normalization (Peak, LUFS) | – | ✔ |
-| Sample Rates above 48 kHz | – | ✔ |
-| 32-bit Float Export | – | ✔ |
-| Mastering Suite in Export | Preview only | ✔ |
-| Time Stretch & Pitch Shift in Export | Preview only | ✔ |
-| Modulation & Creative FX in Export | Preview only | ✔ |
-| Preset Analyze Mode (FFT Analysis) | – | ✔ |
-
-> **Note:** "Preview only" means the effect is fully functional during playback but excluded from the exported file for Basic users.
-
 ## **Table of Contents**
 
-1. [License Tiers](#license-tiers)
-2. [System Requirements](#system-requirements)
+1. [System Requirements](#system-requirements)
    - [Minimum Requirements](#minimum-requirements)
    - [Recommended Requirements](#recommended-requirements)
-3. [Third-Party Libraries](#third-party-libraries)
+2. [Third-Party Libraries](#third-party-libraries)
+3. [License Options and Benefits](#license-options-and-benefits)
 4. [Understanding the Equalizer](#understanding-the-equalizer)
    - [Frequency Bands Explained](#frequency-bands-explained)
    - [Quality Levels](#quality-levels)
@@ -174,6 +150,81 @@ WaveShaper uses several third-party libraries to handle audio processing, encodi
 ### Additional Information
 
 For more details about these libraries, including their capabilities and licensing, check their official documentation. If you have questions or issues related to these libraries, please [open an issue](https://github.com/BerndHagen/WaveShaper-Audio-Processor/issues) on GitHub.
+
+## **License Options and Benefits**
+
+WaveShaper offers two license tiers:
+
+- **Basic (Free):** Full audio workflow — EQ, effects, compression, player, WAV/MP3 export up to 48 kHz / 24-bit
+- **Premium (€7.99 one-time):** Professional export features — Mastering Suite, advanced effects in export, FLAC/AAC/OGG, normalization, hi-res audio
+
+License keys are delivered via email within 5-10 minutes after purchase.
+
+| Feature | Basic | Premium |
+|---------|:-----:|:-------:|
+| **EQUALIZER** | | |
+| 10-Band EQ (all bands, ranges, response types) | ✔ | ✔ |
+| 30 built-in presets (all quality levels) | ✔ | ✔ |
+| Unlimited custom presets | ✔ | ✔ |
+| Preset Manual mode | ✔ | ✔ |
+| Preset Keyword mode (filename matching) | ✔ | ✔ |
+| Preset Analyze mode (FFT audio analysis) | – | ✔ |
+| **EFFECTS — REVERB, DELAY, SATURATION** | | |
+| Reverb — all 6 types (Room Size, Dampening, Mix, Decay, Pre-Delay) | ✔ | ✔ |
+| Delay — all 6 modes (Time, Feedback, Sync) | ✔ | ✔ |
+| Saturation — all 5 types (Drive, Mix, Output) | ✔ | ✔ |
+| **COMPRESSOR** | | |
+| VCA, FET & Opto compressor types | ✔ | ✔ |
+| Soft Knee, Dry/Wet Mix, Sidechain, Auto-Release, Lookahead | ✔ | ✔ |
+| Gate / Expander | ✔ | ✔ |
+| Limiter (in compressor) | ✔ | ✔ |
+| Multi-band Compression (4-Band) | Preview only | ✔ |
+| **MASTERING SUITE** | | |
+| Professional Limiter | Preview only | ✔ |
+| Stereo Imaging (Width, Mid/Side) | Preview only | ✔ |
+| Exciter & Tape Saturation | Preview only | ✔ |
+| LUFS Metering & True Peak | Preview only | ✔ |
+| Mastering Presets (Streaming, Broadcast…) | Preview only | ✔ |
+| Output Gain & Target Loudness | Preview only | ✔ |
+| **TIME STRETCH & PITCH SHIFT** | | |
+| Pitch Shift (±12 Semitones) | Preview only | ✔ |
+| Time Stretch / Tempo (0.5x – 2.0x) | Preview only | ✔ |
+| **MODULATION** | | |
+| Tremolo, Vibrato, Auto-Pan | Preview only | ✔ |
+| Chorus, Phaser, Flanger | Preview only | ✔ |
+| **CREATIVE FX** | | |
+| Normal (Bypass) | ✔ | ✔ |
+| Reverse, Stutter, Gate | Preview only | ✔ |
+| Bitcrush, Lo-Fi, Ring Mod, Granular | Preview only | ✔ |
+| **AUDIO EXPORT** | | |
+| WAV (Lossless) | ✔ | ✔ |
+| MP3 (all bitrates up to 320 kbps) | ✔ | ✔ |
+| FLAC (Lossless) | – | ✔ |
+| AAC | – | ✔ |
+| OGG Vorbis | – | ✔ |
+| Normalization (Peak -1 dB, LUFS -14/-16/-23) | – | ✔ |
+| Sample rates up to 48 kHz | ✔ | ✔ |
+| Sample rates above 48 kHz (88/96/176/192 kHz) | – | ✔ |
+| Bit depth 16-bit / 24-bit | ✔ | ✔ |
+| Bit depth 32-bit float | – | ✔ |
+| **PLAYER & VISUALIZATION** | | |
+| Waveform, Pulse, Center Bars | ✔ | ✔ |
+| Terrain, DNA Helix, Aurora, Shockwave, Flames | ✔ | ✔ |
+| **SPECTRUM ANALYZER** | | |
+| Linear, Logarithmic | ✔ | ✔ |
+| Smooth, Peak, RMS, Octave, Average Hold | ✔ | ✔ |
+| **AUDIO ENGINE** | | |
+| WASAPI Shared, Exclusive, DirectSound | ✔ | ✔ |
+| Buffer Size (64–2048) | ✔ | ✔ |
+| All Dithering types | ✔ | ✔ |
+| DSP Threads (1–10) | ✔ | ✔ |
+| **PROJECTS** | | |
+| Unlimited projects | ✔ | ✔ |
+| **PRICE** | **Free** | **€7.99** (one-time) |
+
+"Preview only" means the effect is fully functional during playback but excluded from the exported file for Basic users. When exporting, a dialog offers: Cancel / Upgrade / Export without Premium Effects.
+
+Multiple payment methods are accepted including Card, Klarna, EPS, Bancontact and iDEAL. Since licenses are digital products, refunds are generally **not available** once the key has been delivered. However, if you encounter any issues during the activation process, please don't hesitate to reach out for assistance.
 
 ## **Understanding the Equalizer**
 
@@ -768,13 +819,5 @@ Preview WaveShaper's interface and features before downloading. Note that future
   <tr>
     <td><a href="https://github.com/BerndHagen/WaveShaper-Audio-Processor/raw/main/images/img-waveshaper-compressor.png"><img src="https://github.com/BerndHagen/WaveShaper-Audio-Processor/raw/main/images/img-waveshaper-compressor.png" alt="WaveShaper Compressor" width="450"></a></td>
     <td><a href="https://github.com/BerndHagen/WaveShaper-Audio-Processor/raw/main/images/img-waveshaper-presets.png"><img src="https://github.com/BerndHagen/WaveShaper-Audio-Processor/raw/main/images/img-waveshaper-presets.png" alt="WaveShaper Presets" width="450"></a></td>
-  </tr>
-  <tr>
-    <th>WaveShaper - Settings</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/BerndHagen/WaveShaper-Audio-Processor/raw/main/images/img-waveshaper-settings.png"><img src="https://github.com/BerndHagen/WaveShaper-Audio-Processor/raw/main/images/img-waveshaper-settings.png" alt="WaveShaper Settings" width="450"></a></td>
-    <td></td>
   </tr>
 </table>
