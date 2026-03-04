@@ -1,28 +1,196 @@
-WaveShaper - Audio Processor
-Copyright (c) 2026 Bernd Julian Hagen
+WAVESHAPER - AUDIO PROCESSING STUDIO LICENSE AGREEMENT
+=======================================================
+Copyright (c) 2025-2026 Bernd Julian Hagen. All rights reserved.
 
-PROPRIETARY SOFTWARE LICENSE
+This document outlines the terms under which WaveShaper - Audio Processing Studio
+("Software") is provided to you. By using the Software, you agree to these terms.
 
-PERMITTED USE:
-  - Free to use for personal and commercial purposes
-  - May distribute the original, unmodified executable
+================================================================================
+1. LICENSE GRANT
+================================================================================
 
-RESTRICTIONS:
-  - No modification, reverse engineering, or decompilation
-  - No removal of copyright notices
-  - No redistribution under a different name
+You are granted a limited, non-exclusive, non-transferable license to:
 
-DISCLAIMER:
-  This software is provided "as is" without warranty of any kind.
-  The author is not liable for any damages arising from its use.
+  - Download and install the Software on your personal devices
+  - Use the Software for personal and commercial audio processing
+  - Share the Software with others for promotional purposes
 
-THIRD-PARTY COMPONENTS:
-  This software uses the following open-source libraries:
+This license does not permit modification, reverse engineering, or commercial
+distribution of the Software.
 
-  NAudio 2.2.1            - Audio I/O and processing (MIT License)
-  NAudio.Lame 2.1.0       - MP3 encoding via LAME (MIT License, LAME is LGPL)
-  SoundTouch.Net 2.3.2    - Pitch and tempo processing (LGPL)
-  Newtonsoft.Json 13.0.4   - JSON serialization (MIT License)
-  TagLibSharp 2.3.0        - Audio metadata embedding (LGPL)
+================================================================================
+2. LICENSE KEY USAGE
+================================================================================
 
-For questions and support, please use GitHub Discussions.
+License keys are personal and non-transferable:
+
+  - Each key is intended for use by the original purchaser only
+  - Keys may be activated on up to 2 devices simultaneously
+  - Sharing or distributing your license key is prohibited
+  - Suspicious usage patterns may result in key deactivation
+
+The Author monitors activation patterns solely to prevent unauthorized sharing,
+not to track individual user activity.
+
+================================================================================
+3. THIRD-PARTY COMPONENTS
+================================================================================
+
+WaveShaper incorporates the following open-source libraries:
+
+NAudio 2.2.1 - Licensed under MIT
+A comprehensive .NET audio library for file decoding, real-time playback,
+WASAPI/DirectSound audio device communication and sample processing.
+Website: https://github.com/naudio/NAudio
+
+NAudio.Lame 2.1.0 - Licensed under MIT (LAME is LGPL)
+Enables high-quality MP3 encoding through the LAME encoder for audio export.
+Website: https://github.com/Corey-M/NAudio.Lame
+
+SoundTouch.Net 2.3.2 - Licensed under LGPL v2.1
+A .NET wrapper for the SoundTouch audio processing library, powering time
+stretching and pitch shifting features.
+Website: https://www.surina.net/soundtouch/
+
+TagLibSharp 2.3.0 - Licensed under LGPL
+Handles audio metadata operations, allowing reading and writing of file tags
+such as title, artist and album information.
+Website: https://github.com/mono/taglib-sharp
+
+Newtonsoft.Json 13.0.4 - Licensed under MIT
+Provides JSON serialization for settings, preset files and configuration
+management throughout the application.
+Website: https://www.newtonsoft.com/json
+
+Users should review and comply with the licensing terms of these components.
+
+================================================================================
+4. DATA HANDLING
+================================================================================
+
+Your preferences and usage data are stored securely to enable features like
+settings sync and progress tracking.
+
+WHAT WAVESHAPER STORES:
+
+  - Settings: EQ preferences, effect parameters, export configuration
+  - Statistics: Export counts and total data processed
+  - Progress: Experience points, level, and rank
+  - History: Recent projects, downloads and export history
+  - License: Current license type and activation status
+  - Presets: Custom EQ presets and effect configurations
+
+WHAT WAVESHAPER DOES NOT STORE:
+
+  - Names, emails, addresses, or phone numbers
+  - Payment information (handled securely by Stripe)
+  - The actual content of processed audio files
+  - Your file system activity outside of WaveShaper
+
+PRIVACY CONTROLS:
+
+You have control over your data:
+
+  - Delete individual history entries via right-click context menus
+  - Unlink your account via the application menu
+  - Factory reset to remove all local settings and data
+
+DATA RETENTION:
+
+  - Basic accounts: Automatically deleted after 365 days of inactivity
+  - Premium accounts: Retained while license is active
+
+================================================================================
+5. PAYMENT AND REFUNDS
+================================================================================
+
+Payments are processed securely through Stripe. The Author does not store any
+payment information.
+
+  - License keys are delivered via email within 5-10 minutes of purchase
+  - License keys are non-refundable once delivered
+  - For payment issues, contact Stripe support
+  - For license delivery issues, contact the Author
+
+================================================================================
+6. YOUR RESPONSIBILITIES
+================================================================================
+
+When using WaveShaper, you are responsible for:
+
+  - Ensuring you have the legal right to process the audio content
+  - Complying with all applicable copyright and intellectual property laws
+  - Meeting any licensing requirements for audio files you process
+  - Complying with your local jurisdiction's laws
+
+WaveShaper is a technical tool that facilitates audio processing. The Software
+does not filter, restrict, or make judgments about content. This neutrality
+means that legal compliance is your responsibility.
+
+The Author is not responsible for:
+
+  - How you choose to use the processed audio content
+  - Copyright infringement or other legal violations
+  - Any claims arising from the distribution of exported audio
+  - Quality or suitability of processed audio for any purpose
+
+================================================================================
+7. DISCLAIMER OF WARRANTIES
+================================================================================
+
+The Software is provided "AS IS" without warranty of any kind. The Author makes
+no guarantees regarding:
+
+  - Continuous compatibility with any audio format or device
+  - Processing quality or real-time performance
+  - Freedom from errors or interruptions
+  - Fitness for any particular purpose
+
+Audio driver updates, system configuration, or technical limitations may affect
+the Software's functionality at any time.
+
+================================================================================
+8. LIMITATION OF LIABILITY
+================================================================================
+
+To the maximum extent permitted by law, the Author shall not be liable for any
+damages arising from your use of the Software, including but not limited to:
+
+  - Loss of data or audio files
+  - Legal consequences from copyright infringement
+  - Claims by third parties related to processed content
+  - Technical issues or service interruptions
+
+================================================================================
+9. LICENSE TERMINATION
+================================================================================
+
+The Author may terminate your license if you:
+
+  - Violate any terms of this agreement
+  - Share or distribute your license key
+  - Use the Software for illegal purposes
+
+Upon termination, you must stop using the Software and delete all copies.
+
+================================================================================
+10. GENERAL TERMS
+================================================================================
+
+By using WaveShaper, you acknowledge that you have read, understood, and agree
+to these terms. This agreement constitutes the entire understanding between you
+and the Author regarding the Software.
+
+The Author reserves the right to update these terms. Continued use after changes
+indicates acceptance of the updated terms.
+
+This agreement is governed by the laws of the Author's jurisdiction.
+
+================================================================================
+CONTACT
+================================================================================
+
+For questions about this license or the Software:
+- GitHub Discussions: https://github.com/BerndHagen/WaveShaper-Audio-Processing-Studio/discussions
+
+Thank you for using WaveShaper - Audio Processing Studio.
