@@ -68,17 +68,21 @@ Users should review and comply with the licensing terms of these components.
 4. DATA HANDLING
 ================================================================================
 
-Your preferences and usage data are stored securely to enable features like
-settings sync and progress tracking.
+WaveShaper uses a shared account system with Medio. Only minimal data is stored
+on the server, while all settings and audio data remain local on your device.
 
-WHAT WAVESHAPER STORES:
+WHAT WAVESHAPER STORES ON THE SERVER:
+
+  - Progress: Experience points and level (updated after each export)
+  - Avatar: Your profile image (if uploaded)
+  - License: Current license type and activation status
+
+WHAT WAVESHAPER STORES LOCALLY:
 
   - Settings: EQ preferences, effect parameters, export configuration
-  - Statistics: Export counts and total data processed
-  - Progress: Experience points, level, and rank
-  - History: Recent projects, downloads and export history
-  - License: Current license type and activation status
   - Presets: Custom EQ presets and effect configurations
+  - History: Recent projects, downloads and export history
+  - Project library: Imported audio file references
 
 WHAT WAVESHAPER DOES NOT STORE:
 
@@ -86,6 +90,7 @@ WHAT WAVESHAPER DOES NOT STORE:
   - Payment information (handled securely by Stripe)
   - The actual content of processed audio files
   - Your file system activity outside of WaveShaper
+  - Settings or preferences on the server (all local)
 
 PRIVACY CONTROLS:
 
